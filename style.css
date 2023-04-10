@@ -1,74 +1,104 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background: hsla(238, 100%, 71%, 1);
+body {
+  background: hsla(238, 100%, 71%, 1);
 
-background: linear-gradient(90deg, hsla(238, 100%, 71%, 1) 0%, hsla(295, 100%, 84%, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    hsla(238, 100%, 71%, 1) 0%,
+    hsla(295, 100%, 84%, 1) 100%
+  );
 
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-div.container{
-    width: 432px;
-    height: 535px;
-    background:#fff;
-    border-radius: 8px;
-    padding: 40px;
-    font-family: 'Roboto', sans-serif;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+div.container {
+  width: 432px;
+  height: 535px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 40px;
+  font-family: "Roboto", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 div.container header {
-    text-align: center;
-} 
-img.logo{
-width: 48px;
+  text-align: center;
 }
-div.container h2{
-    font-weight: 700;
-    font-size: 34px;
-    margin-top: 24px;
-    color: black;
+img.logo {
+  width: 48px;
+}
+div.container h2 {
+  font-weight: 700;
+  font-size: 34px;
+  margin-top: 24px;
+  color: black;
 }
 div.container h2 span {
-    color: #6422CD;
+  color: #6422cd;
 }
-div.container div.login-message{
-    font-weight: 400;
-    font-size: 18px;
-    color: black;
-    margin-top: 24px;
+div.container div.login-message {
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+  margin-top: 24px;
 }
-div.container form{
-    margin-top: 24px;
-    height: 109px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+div.container form {
+  margin-top: 44px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-div.container form input{
-    outline: none;
-    padding: 8px 12px;
-    height: 32px;
-    border-radius: 5px;
-    font-size: 14px;
-    border: 1px solid rgb(209, 213, 219);
+div.container form input {
+  outline: none;
+  padding: 8px 12px;
+  height: 32px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: 1px solid rgb(209, 213, 219);
 }
-div.container form div.pass{
-    display: flex;
-    align-items: center;
+div.container form div.pass {
+  display: flex;
+  align-items: center;
 }
-div.container form div.pass input{
-    flex-grow: 1;
+div.container form div.pass input {
+  flex-grow: 1;
 }
-div.container form div.pass svg{
-    margin-left: 10px;
+div.container form div.pass svg {
+  margin-left: 10px;
 }
 
-div.container form input:focus{
-    border-color: purple;
+div.container form input:focus {
+  border-color: blue;
+}
+div.container form div.forgot {
+  margin-top: 30px;
+  right: 0;
+  color: #6422cd;
+  font-size: 14px;
+  display: flex;
+  margin-left: 180px;
+}
+div.container form div.forgot span {
+  text-align: center;
+}
+div.container form div.btn {
+  display: flex;
+  margin-top: 30px;
+}
+div.container form div.btn button{
+  background-color:#7c65a9;
+  padding: 5px;
+  width: 350px;
+  border-radius: 7px;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
